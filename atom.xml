@@ -6,7 +6,7 @@
   <link href="http://qiyue13.github.io/atom.xml" rel="self"/>
   
   <link href="http://qiyue13.github.io/"/>
-  <updated>2025-08-20T11:44:08.643Z</updated>
+  <updated>2025-08-21T09:08:51.537Z</updated>
   <id>http://qiyue13.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World！</title>
+    <link href="http://qiyue13.github.io/2025/08/21/%E9%A6%96%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>http://qiyue13.github.io/2025/08/21/%E9%A6%96%E7%AF%87%E6%96%87%E7%AB%A0/</id>
+    <published>2025-08-20T16:00:00.000Z</published>
+    <updated>2025-08-21T09:08:51.537Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个暑假，我迈出了舒适圈的第一步。</p><h1 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h1><p>作为一名技术小白，我决定完全靠自学搭建一个个人博客——不只是想要一个站点，更是想试一试，光靠自己在网上找路，能走多远。</p><h1 id="契机"><a href="#契机" class="headerlink" title="契机"></a>契机</h1><p>契机源于一次实习。刚读完大一的我，被父亲安排进企业体验。象牙塔与职场之间的落差，几乎是迎面一拳：学校里的知识突然被拉进现实场景，我才发现自己连从何入手都需要重新学起。</p><p>记得那是一个闷热的下午，我坐在办公室，望着屏幕上密密麻麻的代码出神。恍惚间，我想起之前刷到的一个视频：一个男人用影像记录他的二十几岁，他说，想把这些留给以后的孩子看——让他们知道，他们的父亲，也曾热烈而自由地活过。<br>那一刻，我被击中了。</p><p>我一直有写日记的习惯，但纸笔总让我觉得局限。本子会丢，字会褪，心情会断。而那个视频突然让我明白，记录，或许可以有另一种形态。文字，比起转瞬即逝的图像，更有温度，也更忠诚。</p><h1 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h1><p>就是从那天起，我决定动手搭建一个属于自己的博客。不靠老师，不靠课程，只靠自己搜索、试错、追问。代码报红，就去查文档；布局错乱，就拆别人的案例来看；服务器一次次宕机，我就厚着脸皮去论坛发帖求助。这些天，陪伴我的只有显示器的微光和键盘单调的敲击声。</p><p>直到昨天凌晨，本地测试页终于成功跑了起来。白色背景，黑色文字，简陋得近乎原始。但那是我一字一句搭起来的世界。那一刻我才恍惚意识到：原来有些路，只要你愿意走，脚下就会渐渐浮现。</p><p>这个暑假，我没躺在舒适圈里。是被推到了陌生的轨道上，一路颠簸，却也一路向前。博客或许只是开始，但我知道，它绝不会是终点。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这个暑假，我迈出了舒适圈的第一步。&lt;/p&gt;
+&lt;h1 id=&quot;个人博客&quot;&gt;&lt;a href=&quot;#个人博客&quot; class=&quot;headerlink&quot; title=&quot;个人博客&quot;&gt;&lt;/a&gt;个人博客&lt;/h1&gt;&lt;p&gt;作为一名技术小白，我决定完全靠自学搭建一个个人博客——不只是想要一个站点，</summary>
+      
+    
+    
+    
+    <category term="博客" scheme="http://qiyue13.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="技术" scheme="http://qiyue13.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+    <category term="Hexo" scheme="http://qiyue13.github.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
