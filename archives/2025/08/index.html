@@ -2091,7 +2091,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   /******************************************************************************/
   //图像加载出错时的处理
   function errorImgAvatar(img) {
-    img.src = "https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg";
+    img.src = "/img/TLOU.jpg";
     img.onerror = null;
   }
   function errorImgCover(img) {
@@ -2110,8 +2110,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.GLOBAL_CONFIG ={
     root: '/',
     debug: "env",
-    default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1755768218504),
+    default: {"avatar":"/img/TLOU.jpg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
+    lastupdate: new Date(1755782107915),
     cdn: {
       izitoast_css: 'https://unpkg.com/izitoast@1.4.0/dist/css/iziToast.min.css',
       izitoast_js: 'https://unpkg.com/izitoast@1.4.0/dist/js/iziToast.min.js',
@@ -2209,6 +2209,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     color: #000;  /* 设置文字颜色（根据主题调整） */
   }
 </style>
+<style>
+    scroll-behavior: smooth !important;
+}
+
+/* 修复目录链接点击区域（确保可点击） */
+.toc a {
+  pointer-events: auto !important; /* 允许点击 */
+  display: block; /* 扩大点击区域 */
+  padding: 4px 0; /* 增加点击范围 */
+}
+</style>
+
 
 
 </head>
@@ -2639,6 +2651,14 @@ video {
     <div class='meta-v3' line_style='solid'>
       <div>
         
+          
+          <a class='avatar' href='/'><img src='/img/Ellie.jpg'></a>
+          <span hidden itemprop="author" itemscope itemtype="https://schema.org.cn/Person">
+            <meta itemprop="image" content="/img/Ellie.jpg">
+            <meta itemprop="name" content="Blue Lagoon">
+            <meta itemprop="url" content="/">
+          </span>
+        
         <time itemprop="dateCreated datePublished" datetime="2025-08-21T00:00:00+08:00">2025-08-21</time>
         
           <span class="dot"></span>
@@ -2702,6 +2722,14 @@ Qu...
   
     <div class='meta-v3' line_style='solid'>
       <div>
+        
+          
+          <a class='avatar' href='/'><img src='/img/Ellie.jpg'></a>
+          <span hidden itemprop="author" itemscope itemtype="https://schema.org.cn/Person">
+            <meta itemprop="image" content="/img/Ellie.jpg">
+            <meta itemprop="name" content="Blue Lagoon">
+            <meta itemprop="url" content="/">
+          </span>
         
         <time itemprop="dateCreated datePublished" datetime="2025-08-20T19:44:08+08:00">2025-08-20</time>
         

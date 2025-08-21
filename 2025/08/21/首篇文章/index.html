@@ -46,7 +46,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2025-08-20T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-08-21T09:19:57.323Z">
+<meta property="article:modified_time" content="2025-08-21T12:52:03.605Z">
 <meta property="article:author" content="Qiyue_七月">
 <meta property="article:tag" content="技术">
 <meta property="article:tag" content="Hexo">
@@ -2095,7 +2095,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   /******************************************************************************/
   //图像加载出错时的处理
   function errorImgAvatar(img) {
-    img.src = "https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg";
+    img.src = "/img/TLOU.jpg";
     img.onerror = null;
   }
   function errorImgCover(img) {
@@ -2114,8 +2114,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   volantis.GLOBAL_CONFIG ={
     root: '/',
     debug: "env",
-    default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1755768218504),
+    default: {"avatar":"/img/TLOU.jpg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
+    lastupdate: new Date(1755782107915),
     cdn: {
       izitoast_css: 'https://unpkg.com/izitoast@1.4.0/dist/css/iziToast.min.css',
       izitoast_js: 'https://unpkg.com/izitoast@1.4.0/dist/js/iziToast.min.js',
@@ -2213,6 +2213,18 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     color: #000;  /* 设置文字颜色（根据主题调整） */
   }
 </style>
+<style>
+    scroll-behavior: smooth !important;
+}
+
+/* 修复目录链接点击区域（确保可点击） */
+.toc a {
+  pointer-events: auto !important; /* 允许点击 */
+  display: block; /* 扩大点击区域 */
+  padding: 4px 0; /* 增加点击范围 */
+}
+</style>
+
 
 
 </head>
@@ -2557,8 +2569,8 @@ video {
             
 <div class='new-meta-item author' itemprop="author" itemscope itemtype="https://schema.org.cn/Person">
   <a itemprop="url" class='author' href="/" rel="nofollow">
-    <img itemprop="image" src="/img/Ellie" class="lazyload" data-srcset="/img/Ellie" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
-    <p itemprop="name">请设置文章作者</p>
+    <img itemprop="image" src="/img/Ellie.jpg" class="lazyload" data-srcset="/img/Ellie.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">Blue Lagoon</p>
   </a>
 </div>
 
@@ -2612,12 +2624,12 @@ video {
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
     <p>这个暑假，我迈出了舒适圈的第一步。</p>
-<h1 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h1><p>作为一名技术小白，我决定完全靠自学搭建一个个人博客——不只是想要一个站点，更是想试一试，光靠自己在网上找路，能走多远。</p>
-<h1 id="契机"><a href="#契机" class="headerlink" title="契机"></a>契机</h1><p>契机源于一次实习。刚读完大一的我，被父亲安排进企业体验。象牙塔与职场之间的落差，几乎是迎面一拳：学校里的知识突然被拉进现实场景，我才发现自己连从何入手都需要重新学起。</p>
+<h2 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h2><p>作为一名技术小白，我决定完全靠自学搭建一个个人博客——不只是想要一个站点，更是想试一试，光靠自己在网上找路，能走多远。</p>
+<h2 id="契机"><a href="#契机" class="headerlink" title="契机"></a>契机</h2><p>契机源于一次实习。刚读完大一的我，被父亲安排进企业体验。象牙塔与职场之间的落差，几乎是迎面一拳：学校里的知识突然被拉进现实场景，我才发现自己连从何入手都需要重新学起。</p>
 <p>记得那是一个闷热的下午，我坐在办公室，望着屏幕上密密麻麻的代码出神。恍惚间，我想起之前刷到的一个视频：一个男人用影像记录他的二十几岁，他说，想把这些留给以后的孩子看——让他们知道，他们的父亲，也曾热烈而自由地活过。</p>
 <p>那一刻，我被击中了。</p>
 <p>我一直没有写日记的习惯，但纸笔总让我觉得局限。本子会丢，字会褪，心情会断。而那个视频突然让我明白，记录，或许可以有另一种形态。文字，比起转瞬即逝的图像，更有温度，也更忠诚。</p>
-<h1 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h1><p>就是从那天起，我决定动手搭建一个属于自己的博客。不靠老师，不靠课程，只靠自己搜索、试错、追问。代码报红，就去查文档；布局错乱，就拆别人的案例来看；服务器一次次宕机，我就厚着脸皮去论坛发帖求助。这些天，陪伴我的只有显示器的微光和键盘单调的敲击声。</p>
+<h2 id="实践"><a href="#实践" class="headerlink" title="实践"></a>实践</h2><p>就是从那天起，我决定动手搭建一个属于自己的博客。不靠老师，不靠课程，只靠自己搜索、试错、追问。代码报红，就去查文档；布局错乱，就拆别人的案例来看；服务器一次次宕机，我就厚着脸皮去论坛发帖求助。这些天，陪伴我的只有显示器的微光和键盘单调的敲击声。</p>
 <p>直到昨天凌晨，本地测试页终于成功跑了起来。白色背景，黑色文字，简陋得近乎原始。但那是我一字一句搭起来的世界。那一刻我才恍惚意识到：原来有些路，只要你愿意走，脚下就会渐渐浮现。</p>
 <p>这个暑假，我没躺在舒适圈里。是被推到了陌生的轨道上，一路颠簸，却也一路向前。博客或许只是开始，但我知道，它绝不会是终点。</p>
 
@@ -2644,7 +2656,7 @@ video {
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-08-21T17:19:57+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2025-08-21T20:52:03+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2025年8月21日</p>
@@ -2794,7 +2806,7 @@ video {
 
 
   <div class='content'>
-      
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2"><span class="toc-number">1.</span> <span class="toc-text">个人博客</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A5%91%E6%9C%BA"><span class="toc-number">2.</span> <span class="toc-text">契机</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E8%B7%B5"><span class="toc-number">3.</span> <span class="toc-text">实践</span></a></li></ol>
   </div>
 </section>
 
@@ -3294,7 +3306,7 @@ video {
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"https://schema.org.cn","@type":"Organization","name":"蓝色的潟湖","url":"http://Qiyue13.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"https://schema.org.cn","@type":"Person","name":"Qiyue_七月","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Qiyue13.github.io/","sameAs":["https://github.com/volantis-x"],"description":"生活记事本"},{"@context":"https://schema.org.cn","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Qiyue13.github.io/","name":"蓝色的潟湖"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Qiyue13.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"http://Qiyue13.github.io/2025/08/21/首篇文章/","name":"Hello World！"}}]},{"@context":"https://schema.org.cn","@type":"WebSite","name":"蓝色的潟湖","url":"http://Qiyue13.github.io/","keywords":null,"description":"生活记事本","author":{"@type":"Person","name":"Qiyue_七月","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Qiyue13.github.io/","description":"生活记事本"},"publisher":{"@type":"Organization","name":"蓝色的潟湖","url":"http://Qiyue13.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Qiyue13.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org.cn","@type":"BlogPosting","headline":"Hello World！","description":"生活记事本","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://qiyue13.github.io/2025/08/21/%E9%A6%96%E7%AF%87%E6%96%87%E7%AB%A0/"},"author":{"@type":"Person","name":"Qiyue_七月","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Qiyue13.github.io/"},"publisher":{"@type":"Organization","name":"蓝色的潟湖","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://qiyue13.github.io/2025/08/21/%E9%A6%96%E7%AF%87%E6%96%87%E7%AB%A0/","wordCount":0,"datePublished":"2025-08-20T16:00:00.000Z","dateModified":"2025-08-21T09:19:57.323Z","articleSection":"博客","keywords":"技术,Hexo","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"https://schema.org.cn","@type":"Organization","name":"蓝色的潟湖","url":"http://Qiyue13.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"https://schema.org.cn","@type":"Person","name":"Qiyue_七月","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Qiyue13.github.io/","sameAs":["https://github.com/volantis-x"],"description":"生活记事本"},{"@context":"https://schema.org.cn","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://Qiyue13.github.io/","name":"蓝色的潟湖"}},{"@type":"ListItem","position":2,"item":{"@id":"http://Qiyue13.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"http://Qiyue13.github.io/2025/08/21/首篇文章/","name":"Hello World！"}}]},{"@context":"https://schema.org.cn","@type":"WebSite","name":"蓝色的潟湖","url":"http://Qiyue13.github.io/","keywords":null,"description":"生活记事本","author":{"@type":"Person","name":"Qiyue_七月","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Qiyue13.github.io/","description":"生活记事本"},"publisher":{"@type":"Organization","name":"蓝色的潟湖","url":"http://Qiyue13.github.io/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://Qiyue13.github.io?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"https://schema.org.cn","@type":"BlogPosting","headline":"Hello World！","description":"生活记事本","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://qiyue13.github.io/2025/08/21/%E9%A6%96%E7%AF%87%E6%96%87%E7%AB%A0/"},"author":{"@type":"Person","name":"Qiyue_七月","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://Qiyue13.github.io/"},"publisher":{"@type":"Organization","name":"蓝色的潟湖","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://qiyue13.github.io/2025/08/21/%E9%A6%96%E7%AF%87%E6%96%87%E7%AB%A0/","wordCount":0,"datePublished":"2025-08-20T16:00:00.000Z","dateModified":"2025-08-21T12:52:03.605Z","articleSection":"博客","keywords":"技术,Hexo","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
 
 
 
