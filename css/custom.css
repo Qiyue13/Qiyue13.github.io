@@ -1,0 +1,17 @@
+body {
+  cursor: url('https://fastly.jsdelivr.net/gh/TRHX/CDN-for-ithrx.com@2.1.6/images/mouse.cur'), auto;
+  /* 替换成你的指针文件链接，auto 是加载失败时的默认指针 */
+}
+
+/* 圆形头像样式 */
+.avatar {
+  /* 确保图片为正方形，避免变形 */
+  width: 120px;  /* 根据你的需求调整大小 */
+  height: 120px;
+  /* 关键属性：设置圆角为 50% 实现圆形 */
+  border-radius: 50% !important;
+  /* 可选：添加边框和阴影增强效果 */
+  border: 2px solid #fff;  /* 白色边框 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* 轻微阴影 */
+  object-fit: cover;  /* 图片裁剪适应容器，避免拉伸 */
+}

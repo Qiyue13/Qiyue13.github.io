@@ -29,7 +29,7 @@
   <!-- Custom Files headBegin end-->
   <link rel="preload" href="/css/style.css" as="style">
   <link rel="preload" href="https://unpkg.com/volantis-static@0.0.1660614606622/media/fonts/VarelaRound/VarelaRound-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-<link rel="preload" href="https://unpkg.com/volantis-static@0.0.1660614606622/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" href="/fonts/LXGWWenKai-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
       <link rel="alternate" href="/atom.xml" title="蓝色的潟湖" type="application/atom+xml">
@@ -108,7 +108,7 @@ html {
   color: var(--color-text);
   width: 100%;
   height: 100%;
-  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: LXGWWenKai, "UbuntuMono", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   font-size: 16px;
 }
 html >::-webkit-scrollbar {
@@ -834,8 +834,8 @@ button {
   }
 }
 @font-face {
-  font-family: 'UbuntuMono';
-  src: url("https://unpkg.com/volantis-static@0.0.1660614606622/media/fonts/UbuntuMono/UbuntuMono-Regular.ttf");
+  font-family: 'LXGWWenKai';
+  src: url("/fonts/LXGWWenKai-Regular.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -976,7 +976,7 @@ button {
 }
 .l_header .nav-sub .title {
   font-weight: bold;
-  font-family: UbuntuMono, "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
+  font-family: LXGWWenKai, "UbuntuMono", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial, Menlo, Monaco, monospace, sans-serif;
   line-height: 1.2;
   max-height: 64px;
   white-space: normal;
@@ -2113,7 +2113,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     root: '/',
     debug: "env",
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1660614606622/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1755705056894),
+    lastupdate: new Date(1755764328417),
     cdn: {
       izitoast_css: 'https://unpkg.com/izitoast@1.4.0/dist/css/iziToast.min.css',
       izitoast_js: 'https://unpkg.com/izitoast@1.4.0/dist/js/iziToast.min.js',
@@ -2163,7 +2163,89 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- Custom Files headEnd begin-->
   
   <!-- Custom Files headEnd end-->
+  <style>
+  /* 覆盖封面标题字体 */
+  .cover-wrapper .cover-body .title {
+    font-family: 'LXGWWenKai-Regular', "PingFang SC", "Microsoft YaHei", sans-serif !important;
+    font-size: 50px; /* 可根据需要调整字体大小，这里保留原尺寸示例 */
+    /* 若要修改颜色等其他样式也可在此添加，比如 color: #000; */
+  }
+
+  /* 声明自定义字体（如果还没全局声明过） */
+  @font-face {
+    font-family: 'LXGWWenKai-Regular';
+    src: url('/fonts/LXGWWenKai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+</style>
+  <style>
+  .avatar {
+    /* 保持之前的圆形样式 */
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+    /* 其他圆形样式... */
+
+    object-position: center 80%;
+    /* 位置调整（根据需要修改） */
+    position: relative;  /* 相对自身原位置偏移 */
+    top: 20px;          /* 向上移动20px（正数向下） */
+    left: 0px;          /* 向右移动30px（正数向左） */
+
+    /* 或使用绝对定位（相对于父容器） */
+    /* position: absolute; */
+    /* top: 50px;   距离父容器顶部50px */
+    /* right: 20px; 距离父容器右侧20px */
+  }
+</style>
+
+<style>
+  /* 覆盖封面背景图和颜色 */
+  .cover {
+    background-image: none !important;  /* 移除背景图 */
+    background-color: transparent !important;  /* 透明背景色 */
+  }
+  /* 确保封面内容（标题、按钮）可见 */
+  .cover .cover-content {
+    color: #000;  /* 设置文字颜色（根据主题调整） */
+  }
+</style>
+
+
 </head>
+  <video autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+  <source src="/videos/bg.mp4" type="video/mp4">
+</video>
+<style>
+  body, .body-wrapper, #safearea {
+    background: transparent !important; 
+  }
+  html, body {
+    overflow-x: hidden;  
+    height: 100%;        
+  }
+  /* 如果有评论区等延迟加载组件，也在这里覆盖 */
+  .comments-section {
+    background: transparent !important;
+  }
+  body, 
+.body-wrapper, 
+#safearea, 
+.header, 
+.footer, 
+.post, 
+.sidebar,
+/* 其他可见容器 */ {
+  background: transparent !important; 
+  background-color: transparent !important;
+}
+
+/* 强制视频层级最低 */
+video {
+  z-index: -9999 !important; 
+}
+</style>
   <body itemscope itemtype="https://schema.org.cn/WebPage">
     <!-- import body_begin begin-->
     <!-- import body_begin end-->
@@ -2473,7 +2555,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             
 <div class='new-meta-item author' itemprop="author" itemscope itemtype="https://schema.org.cn/Person">
   <a itemprop="url" class='author' href="/" rel="nofollow">
-    <img itemprop="image" src="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/apple-touch-icon.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1660614606622/media/org.volantis/blog/favicon/apple-touch-icon.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <img itemprop="image" src="/img/Ellie" class="lazyload" data-srcset="/img/Ellie" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
     <p itemprop="name">请设置文章作者</p>
   </a>
 </div>
@@ -3194,5 +3276,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- Custom Files bodyEnd begin-->
     
     <!-- Custom Files bodyEnd end-->
+    <!-- 页面点击小红心 -->
+    <script type="text/javascript" src="/js/love.js"></script>
   </body>
 </html>
