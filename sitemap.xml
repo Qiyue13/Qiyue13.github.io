@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://qiyue13.github.io/2025/08/27/%E6%B5%B7%E7%9A%84%E9%81%90%E6%80%9D/</loc>
+    
+    <lastmod>2025-08-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://qiyue13.github.io/2025/08/22/%E9%9B%AA%E4%B8%8E%E5%BE%AA%E7%8E%AF/</loc>
     
     <lastmod>2025-08-22</lastmod>
@@ -40,7 +49,7 @@
 
   <url>
     <loc>http://qiyue13.github.io/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,28 +57,42 @@
   
   <url>
     <loc>http://qiyue13.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://qiyue13.github.io/tags/Hexo/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://qiyue13.github.io/tags/%E6%B8%B8%E6%88%8F/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://qiyue13.github.io/tags/TLOU2/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://qiyue13.github.io/tags/%E6%80%9D%E8%80%83/</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://qiyue13.github.io/tags/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -78,7 +101,7 @@
   
   <url>
     <loc>http://qiyue13.github.io/categories/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-08-22</lastmod>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
